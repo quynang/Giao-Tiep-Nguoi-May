@@ -1,0 +1,7 @@
+.posts__title {
+    letter-spacing: 0em;
+}
+
+.posts--simple-list .posts__title {
+    line-height: 1.2em;
+}
