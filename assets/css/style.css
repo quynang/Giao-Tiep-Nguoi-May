@@ -4046,7 +4046,7 @@ td.team-leader__goals{text-align:center;}
 .btn-social-counter{display:block;width:100%;color:#fff;text-transform:uppercase;border:1px solid #e4e7ed;border-radius:4px;min-height:65px;position:relative;overflow:hidden;background-clip:padding-box;padding:20px 60px 18px 86px;transition:all 0.3s ease-in-out;transform:translate3d(0, 0, 0);}
 .btn-social-counter + .btn-social-counter{margin-top:10px;}
 .btn-social-counter:hover{color:#fff;}
-.btn-social-counter__icon{display:block;position:absolute;left:0;top:0;bottom:0;width:68px;background-color:rgba(0, 0, 0, 0.1);text-align:center;font-size:18px;}
+.btn-social-counter__icon{display:block;position:absolute;right:0;top:0;bottom:0;width:68px;background-color:rgba(0, 0, 0, 0.1);text-align:center;font-size:18px;}
 .btn-social-counter__icon .fa{width:20px;height:20px;line-height:20px;text-align:center;display:block;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);}
 .btn-social-counter__title{font-size:11px;line-height:1.2em;color:#fff;margin-bottom:1px;letter-spacing:-0.02em;}
 @media (min-width:992px){.btn-social-counter__title{font-size:13px;}
@@ -4589,3 +4589,23 @@ td.team-leader__goals{text-align:center;}
 
 .widget-standings .nav.widget-tabbed__nav > li > a{font-size:11px;line-height:1.5em;font-family:"Montserrat", sans-serif;text-transform:uppercase;padding:12px 6px;color:rgba(49, 64, 75, 0.4);font-weight:bold;letter-spacing:-0.02em;transition:color 0.2s ease-in-out;}
 .widget-standings .nav.widget-tabbed__nav > li.active > a{color:#000;background-color:transparent;}
+
+/*------button facebook google share in the cornner----*/
+#mySidenav a {
+    left: -132px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+	
+	display:block;
+}
+#mySidenav a:hover {
+    left: 0;
+}
+@media (max-width: 500px) 
+{
+    #mySidenav a
+    {
+        display: none;
+    }
+}
