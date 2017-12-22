@@ -18675,10 +18675,11 @@ td.team-leader__goals {
 
 .btn-social-counter__icon {
     display: block;
-    position: absolute;
+    float: left;
+    /* position: absolute;
     left: 0;
     top: 0;
-    bottom: 0;
+    bottom: 0; */
     width: 68px;
     background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -21927,7 +21928,7 @@ td.team-leader__goals {
     padding: 15px;
     width: 200px;
 	
-	display:block;
+	display: block;
 }
 #mySidenav a:hover {
     left: 0;
