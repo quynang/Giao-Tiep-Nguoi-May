@@ -7574,7 +7574,7 @@ ul.posts:not(.post-grid) {
 
 .posts--simple-list .posts__title {
     margin-bottom: 0;
-    line-height: 1em;
+    line-height: 120%;
 }
 
 .widget--footer .posts--simple-list .posts__title {
@@ -9852,13 +9852,13 @@ ul.posts:not(.post-grid) {
 
 .post__meta-block--top .page-heading__title {
     font-size: 24px;
-    line-height: 1em;
+    line-height: 120%;
     margin-bottom: 0.475em;
 }
 
 @media (min-width:992px) {
     .post__meta-block--top .page-heading__title {
-        font-size: 42px;
+        font-size: 40px;
     }
 }
 
