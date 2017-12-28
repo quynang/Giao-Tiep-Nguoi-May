@@ -495,8 +495,8 @@ th {
     padding: 6.5px;
     vertical-align: top;
     border-top: 1px solid #e4e7ed;
-    font-family: "Montserrat", sans-serif;
-    font-size: 10px;
+    font-family:  Verdana,Geneva,sans-serif;
+    font-size: 13px;
 }
 
 @media (min-width:992px) {
@@ -507,7 +507,7 @@ th {
     .table>tfoot>tr>th,
     .table>tfoot>tr>td {
         padding: 13px 10px;
-        font-size: 11px;
+        font-size: 13px;
     }
 }
 
@@ -13599,7 +13599,7 @@ td.team-leader__goals {
 }
 
 .soccer-lineup {
-    background: url("../images/lineup-bg.png") 0 0 no-repeat;
+    background: url("../images/soccer/lineup-bg.png") 0 0 no-repeat;
     background-size: cover;
     max-width: 100%;
 }
@@ -13611,9 +13611,9 @@ td.team-leader__goals {
 }
 
 .commentary__item {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 17px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Verdana,Geneva,sans-serif;
     padding: 20px 24px 20px 80px;
     position: relative;
     letter-spacing: -0.02em;
@@ -19631,7 +19631,7 @@ td.team-leader__goals {
 
 .game-result__header--alt {
     display: flex;
-    font-size: 9px;
+    font-size: 13px;
     line-height: 1.2em;
     font-weight: 400;
     text-transform: uppercase;
@@ -19685,7 +19685,7 @@ td.team-leader__goals {
 .game-result__header--alt .game-result__goal {
     color: #000;
     text-transform: none;
-    font-family: "Montserrat", sans-serif;
+    font-family:  Verdana,Geneva,sans-serif;
     padding: 0 10px;
 }
 
