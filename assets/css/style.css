@@ -9,7 +9,7 @@ h6 {
     margin: 0 0 .75em 0;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+    font-family: Open Sans',arial,sans-serif;
     letter-spacing: -0.02em;
 }
 
@@ -5254,10 +5254,10 @@ html {
 
 body {
     background-color: #edeff4;
-    color: #888888;
+    color: #222;
     font-size: 15px;
     line-height: 26px;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Verdana,Geneva,sans-serif;
     font-weight: 400;
 }
 
@@ -22017,4 +22017,7 @@ td.team-leader__goals {
 
 @media screen and (max-width: 290px) {
     .weekdays li, .days li {width: 12.2%;}
+}
+b, strong {
+    font-weight: 700;
 }
