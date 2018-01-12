@@ -8,7 +8,6 @@ h6 {
     color: #000;
     margin: 0 0 .75em 0;
     font-weight: 700;
-    text-transform: uppercase;
     font-family: Open Sans',arial,sans-serif;
     letter-spacing: -0.02em;
 }
@@ -16,7 +15,6 @@ h6 {
 h1 {
     font-size: 48px;
     font-style: normal;
-    text-transform: uppercase;
 }
 
 h2 {
@@ -28,7 +26,6 @@ h2 {
 h3 {
     font-size: 24px;
     font-style: normal;
-    text-transform: uppercase;
 }
 
 h4 {
@@ -46,7 +43,6 @@ h5 {
 
 h6 {
     font-size: 14px;
-    text-transform: uppercase;
     margin-bottom: 2em;
     line-height: 26px;
     font-size: normal;
@@ -959,7 +955,7 @@ th {
 .btn {
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     transition: all 0.3s ease;
     padding: 13px 42px;
     font-size: 11px;
@@ -4697,10 +4693,9 @@ div.cs-skin-border li.cs-focus span {
 
 .category-filter__link {
     display: inline-block;
-    font-size: 9px;
-    text-transform: uppercase;
+    font-size: 12px !important;
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-weight: 510;
     letter-spacing: -0.02em;
     color: rgba(49, 64, 75, 0.4);
     transition: color 0.3s ease;
@@ -5350,9 +5345,8 @@ body {
     .nav-account .nav-account__item {
         display: inline-block;
         float: right;
-        font-size: 9px;
+        font-size: 10px;
         line-height: 1.5em;
-        text-transform: uppercase;
         font-weight: 700;
         font-family: "Montserrat", sans-serif;
     }
@@ -5974,9 +5968,8 @@ input.header-mobile__search-control:focus {
 .main-nav__sub li a {
     display: block;
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 11px;
+    font-weight: 500;
+    font-size: 12px;
     color: #fff;
     text-align: left;
     line-height: 1.5em;
@@ -6896,7 +6889,6 @@ input.header-mobile__search-control:focus {
 }
 
 .page-heading__title {
-    text-transform: uppercase;
     color: #fff;
     letter-spacing: -0.02em;
     font-size: 24px;
@@ -7495,7 +7487,6 @@ ul.posts:not(.post-grid) {
 }
 
 .posts__title {
-    text-transform: uppercase;
     letter-spacing: -0.03em;
     font-style: normal;
 }
@@ -7518,6 +7509,7 @@ ul.posts:not(.post-grid) {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     line-height: 1.2em;
+
 }
 
 .posts--simple-list .posts__item {
@@ -7633,6 +7625,8 @@ ul.posts:not(.post-grid) {
     line-height: 1.2em;
     vertical-align: middle;
     display: inline-block;
+    color: rgba(154, 157, 162, 0.6);
+
 }
 
 @media (max-width:991px) {
@@ -7723,8 +7717,7 @@ ul.posts:not(.post-grid) {
 }
 
 .posts--simple-list .post-author__name {
-    font-size: 10px;
-    text-transform: uppercase;
+    font-size: 11px;
     color: #888888;
     font-weight: 400;
 }
@@ -8644,7 +8637,6 @@ ul.posts:not(.post-grid) {
 .posts--slider-featured .posts__date {
     font-size: 9px;
     color: #fff;
-    text-transform: uppercase;
     display: inline-block;
     font-weight: 700;
     margin-bottom: 0;
@@ -21918,7 +21910,7 @@ td.team-leader__goals {
 .mb-20{margin-bottom:20px !important;}
 .mb-30{margin-bottom:30px !important;}
 
-.widget-standings .nav.widget-tabbed__nav > li > a{font-size:11px;line-height:1.5em;font-family:"Montserrat", sans-serif;text-transform:uppercase;padding:12px 6px;color:rgba(49, 64, 75, 0.4);font-weight:bold;letter-spacing:-0.02em;transition:color 0.2s ease-in-out;}
+.widget-standings .nav.widget-tabbed__nav > li > a{font-size:9px;line-height:1.5em;font-family:"Montserrat", sans-serif;text-transform:uppercase;padding:12px 6px;color:#888888;font-weight:400;letter-spacing:-0.02em;transition:color 0.2s ease-in-out;}
 .widget-standings .nav.widget-tabbed__nav > li.active > a{color:#000;background-color:transparent;}
 
 /*------button facebook google share in the cornner----*/
@@ -22020,4 +22012,8 @@ td.team-leader__goals {
 }
 b, strong {
     font-weight: 700;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs.nav-justified>.active>a:focus{
+    border: none;
 }
