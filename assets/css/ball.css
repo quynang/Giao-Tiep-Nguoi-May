@@ -1,0 +1,28 @@
+@keyframes bounce {
+	0% {top:-3px;}
+	100% {top:6px;}
+}
+
+@keyframes spinner {
+	100% { transform: rotateY(180deg); }
+    /*100% { transform: rotateY(360deg); }*/
+}
+
+@keyframes card1 {
+    0%{ transform: rotate3d(1, 1, 1, 0deg); }
+    100% { transform: rotate3d(1, 1, 1, 360deg); }
+}
+
+.ball {
+	border-radius:100%; 
+	position:relative; 
+	animation: bounce 0.5s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
+}
+
+.tran {
+	border-radius:100%; 
+	position:relative; 
+	animation: spinner 1s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
+}
+
+
