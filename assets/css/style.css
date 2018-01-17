@@ -7506,7 +7506,6 @@ ul.posts:not(.post-grid) {
 
 .posts__date {
     display: inline-block;
-    text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     line-height: 1.2em;
 

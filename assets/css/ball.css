@@ -3,6 +3,13 @@
 	100% {top:6px;}
 }
 
+@keyframes bounce1 {
+	
+	0% {top:-3px;}
+	20% {top:-3px;}
+	100% {top:6px;}
+}
+
 @keyframes spinner {
 	100% { transform: rotateY(180deg); }
     /*100% { transform: rotateY(360deg); }*/
@@ -25,4 +32,9 @@
 	animation: spinner 1s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
 }
 
+.ball1 {
+	border-radius:100%; 
+	position:relative; 
+	animation: bounce1 0.5s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
+}
 
