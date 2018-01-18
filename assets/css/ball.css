@@ -23,7 +23,7 @@
 .ball {
 	border-radius:100%; 
 	position:relative; 
-	animation: bounce 0.5s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
+	animation: bounce 0.4s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
 }
 
 .tran {
@@ -35,6 +35,6 @@
 .ball1 {
 	border-radius:100%; 
 	position:relative; 
-	animation: bounce1 0.5s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
+	animation: bounce1 0.4s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
 }
 
