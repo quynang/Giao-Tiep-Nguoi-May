@@ -37,4 +37,15 @@
 	position:relative; 
 	animation: bounce1 0.4s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
 }
+.ballhover:hover{
+	border-radius:100%; 
+	position:relative; 
+	animation: bounce 0.4s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
+}
 
+.tranhover:hover > img{
+	border-radius:100%;
+	position:relative; 
+	animation: spinner 1s cubic-bezier(.89, .01, .99, 1.01) infinite alternate; 
+}
+	
